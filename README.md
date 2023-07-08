@@ -1,71 +1,47 @@
-# Getting Started with Create React App
+# React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React project that includes two components: ListComparison and PomodoroClock.
 
-## Available Scripts
+## ListComparison
 
-In the project directory, you can run:
+The ListComparison component allows you to compare two lists and find the differences between them. It takes two input fields where you can enter comma-separated items for List A and List B. When you click the "Compute" button, it calculates and displays the following results:
 
-### `npm start`
+- Items present only in List A.
+- Items present only in List B.
+- Items present in both List A and List B.
+- Combined items from List A and List B (without duplicates).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## PomodoroClock
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The PomodoroClock component is a timer for the Pomodoro technique. It has the following features:
 
-### `npm test`
+- You can set the work time, break time, and cycle limit as props when using this component.
+- The timer starts with the specified work time in minutes.
+- When the timer reaches 0, it automatically switches to the break time.
+- After completing a cycle (work time + break time), it increments the cycle count.
+- You can start, pause, and reset the timer using the provided buttons.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To run this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd react-project`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to see the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project has the following dependencies:
 
-### `npm run eject`
+- React: `version`
+- ReactDOM: `version`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Make sure you have these dependencies installed in your project directory before running the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! If you find any issues or want to add new features, feel free to open an issue or submit a pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# InnerHour-Assignment
