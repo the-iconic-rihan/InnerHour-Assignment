@@ -1,0 +1,53 @@
+.pomodoro-clock-container {
+    width: 500px;
+    height: 270px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timer h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .buttons {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-top: 80px;
+  }
+  
+  .start-button,
+  .pause-button,
+  .reset-button {
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin: auto 20px auto auto ;
+  }
+  
+  .start-button:hover,
+  .pause-button:hover,
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .start-button {
+    background-color: #5cb85c;
+  }
+  
+  .pause-button {
+    background-color: #f0ad4e;
+  }
+  
+  .reset-button {
+    background-color: #d9534f;
+  }
+  

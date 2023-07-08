@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import ListComparison from './components/ListComparison';
+import PomodoroClock from './components/PomodoroClock';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="mainBox">
+    <ListComparison></ListComparison>
+    <PomodoroClock workTime={25} breakTime={5} cycleLimit={3}/>
     </div>
+    
+    </>
   );
 }
 
