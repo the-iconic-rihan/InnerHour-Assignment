@@ -25,8 +25,8 @@ The PomodoroClock component is a timer for the Pomodoro technique. It has the fo
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd react-project`
+1. Clone the repository: `git clone https://github.com/the-iconic-rihan/InnerHour-Assignment.git`
+2. Navigate to the project directory: `cd InnerHour-Assignment`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open your browser and visit `http://localhost:3000` to see the application.
