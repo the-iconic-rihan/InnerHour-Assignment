@@ -35,8 +35,8 @@ To run this project locally, follow these steps:
 
 This project has the following dependencies:
 
-- React: `version`
-- ReactDOM: `version`
+- React: `18.2.0`
+- ReactDOM: `18.2.0`
 
 Make sure you have these dependencies installed in your project directory before running the application.
 
